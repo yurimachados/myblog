@@ -1,0 +1,2 @@
+# myblog
+Django Personal Blog
