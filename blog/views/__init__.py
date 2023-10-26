@@ -1,0 +1,1 @@
+from blog.views.post_view import PostView
