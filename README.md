@@ -21,7 +21,7 @@ source venv/bin/activate
 
 Install requirements
 ```
-python install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 Migrate
