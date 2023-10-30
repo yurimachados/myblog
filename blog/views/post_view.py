@@ -4,9 +4,8 @@ from blog.models.post import Post
 
 
 class PostView(generic.ListView):
-    queryset = Post.objects.filter(status=0).order_by('-created_on')
+    queryset = Post.objects.filter(status=1).order_by('-created_on')
     template_name = 'index.html'
-    print(queryset)
 
 class PostDetail(generic.DetailView):
     model = Post
