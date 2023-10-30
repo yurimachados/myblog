@@ -4,29 +4,30 @@ Django Personal Blog
 
 ## Deploy
 
-Install virtual environment
+1. Install virtual environment
 ```
 python -m venv venv
 ```
 
-Ativate virtual enviroment windows
+2. Ativate virtual enviroment 
+
+2.1. windows
 ```
 source venv/scripts/activate
 ```
-
-Ativate virtual enviroment linux
+2.2. linux
 ```
 source venv/bin/activate
 ```
 
-Install requirements
+3. Install requirements
 ```
 pip install -r requirements.txt
 ```
 
-Change the name of the file `.env.example` to `.env`
+4. Change the name of the file `.env.example` to `.env`
 
-Migrate
+5. Migrate
 ```
 python manage.py makemigrations
 ```
@@ -34,7 +35,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-Run server
+6. Run server
 ```
 python manage.py runserver
 ```
